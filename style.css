@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 163, 130); 
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#card {
+    width: 425px;
+    /* height: 200px; */
+    background-color: beige;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#card .dict-screen{
+    margin: 0 10px;
+    padding: 10px 10px;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+#card .dict-screen h4{
+    font-weight: 400;
+    text-align: center;
+}
+
+#card .dict-screen input {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    font-size: 0.83em;
+}
+
+#card .dict-screen button{
+    margin-left: 20px;
+    padding: 10px 15px;
+    height: 40px;
+    background-color:rgb(247, 130, 87); 
+    border: none;
+    border-radius: 8px;
+    color: rgb(255,255,255);
+}
+
+#card .dict-screen button:hover {
+    background-color:rgb(227, 79, 25);
+}
+
+#card .dict-screen button:active {
+    background-color:rgb(227, 79, 25);
+}
+
+
+
+
+ /* Result Screen */
+#result-card{
+    margin-left:25px;
+}
+
+#result-card .word{
+  display: flex;
+  justify-content: start;
+}
+
+#result-card .word h4{
+    font-size: 400;
+    font-style: normal;
+}
+
+#result-card .word button {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 20px;
+    border:none;
+    border-style: dashed;
+    background-color: transparent;
+    color:rgb(247, 130, 87);  
+}
+
+#result-card .word button:hover {
+    color:rgb(227, 79, 25);
+}
+
+#result-card .word button:active {
+    color:rgb(227, 79, 25);
+}
+
+#result-card h4{
+    font-weight: 700;
+    font-style: italic;
+}
+
+#result-card .partofspeech{
+    color:#575a76;
+}
+
+#result-card p {
+    color:#575a76;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1em;
+}
